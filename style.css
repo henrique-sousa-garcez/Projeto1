@@ -1,0 +1,145 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28313.jpg?size=626&ext=jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+label {
+    display: block;
+}
+
+
+label .required {
+    font-size: 0.75em;
+    color:#760000;
+}
+
+input {
+    width: 200px;
+}
+
+
+input.radio, input.submit {
+    width: auto;
+}
+
+input:focus, textarea:focus {
+    background: #ffc;
+}
+
+input.radio {
+    float: left;
+    margin-right: 1em;
+    width: 400px;
+}
+textarea {
+    max-width: 300px;
+    height: 100px;
+}
+
+fieldset {
+    margin: 1em 0; /*  space out the fieldsets a little*/
+    padding: 1em;
+    border : 1px solid #ccc;
+}
+
+legend {
+    font-weight: bold;
+    color: white
+}
+
+
+label {
+    display: block;
+}
+
+/* style for required labels */
+label .required {
+    font-size: 0.75em;
+    color:#760000;
+}
+
+input {
+    width: 200px;
+}
+
+
+input.radio, input.submit {
+    width: auto;
+}
+
+input:focus, textarea:focus {
+    background: #ffc;
+}
+
+input.radio {
+    float: left;
+    margin-right: 1em;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+input.radio + label {
+    text-indent: 2em;
+}
+
+input.radio + label {
+    text-indent: 0;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
